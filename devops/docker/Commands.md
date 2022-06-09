@@ -58,6 +58,12 @@ docker build -t <custom_image_name> ../../<folder_name>
 
 # Build a Dockerfile without cache
 docker build -t <image_name> . --no-cache
+
+# Remove all unused images
+docker iamge prune
+
+# Rename image
+docker tag <current_image_name> <new_image_name>
 ```
 
 <br>

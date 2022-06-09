@@ -3,6 +3,8 @@
 
 > if some instruction changes after building execution, the cache will be ignored from the changed line until the end.
 
+> if some instruction needs another one, run both in the same run command.
+
 <br>
 
 ## Samples:
@@ -14,6 +16,18 @@
 FROM ubuntu
 RUN apt update
 RUN apt install curl --yes
+RUN apt install vim --yes
+
+# Or
+FROM ubuntu
+RUN apt update && \
+  apt install curl --yes && \
+  apt install vim --yes
+
+# Or
+FROM ubuntu
+RUN apt update && \
+  apt install curl vim --yes
 ```
 
 ```sh
