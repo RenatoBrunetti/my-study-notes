@@ -1,6 +1,14 @@
-# Docker Commands
-[main](../../README.md) | [devops](../README.md) | [docker](README.md) | [commands](Commands.md)
+# Docker Container
+[main](../../README.md) | [devops](../README.md) | [docker](README.md) | [container](Container.md)
 
+## About Container
+Container is a component that automates the implementation of an application.
+
+A container is made up of one or more images.
+
+---
+
+## Docker Container Commands
 ```sh
 # Run a container
 docker container run <container_image_name>
@@ -68,7 +76,7 @@ docker tag <current_image_name> <new_image_name>
 
 <br>
 
-## Samples
+## Docker Container Samples
 
 ```sh
 # Set and run a postgres container
