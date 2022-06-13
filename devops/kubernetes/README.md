@@ -4,7 +4,7 @@
 Kubernetes is a container orchestrator.
 
 ## Index
-- [Cluster](ClusterCreation.md)
+- [Cluster](Cluster.md)
 - [Pod](Pod.md)
 - [Replicaset](Replicaset.md)
 - [Deployment](Deployment.md)
