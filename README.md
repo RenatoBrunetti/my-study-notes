@@ -4,7 +4,7 @@
 - [Docker](devops/docker/README.md)
 - [Kubernetes](devops/kubernetes/README.md)
 
-## [Frameworks]()
+<!-- ## [Frameworks]()
 - [Javascript]()
   - [Express]()
   - [GraphQL]()
@@ -19,4 +19,4 @@
 ## [Terminal]()
 - [SSH]()
 - [ZSH]()
-  - [OH-MY-ZSH]()
+  - [OH-MY-ZSH]() -->
