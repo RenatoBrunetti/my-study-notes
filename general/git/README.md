@@ -52,6 +52,21 @@ git config --global core.editor code --wait
 git remote add origin git@github.com:<UserName>/<repository-name>.git
 ```
 
+### Branch
+```sh
+# List branches
+git branch
+
+# List current user branches
+git branch -a
+
+# Create local branch and switch in it
+git checkout -b <Branch-Name>
+
+# Switch branch
+git checkout <Branch-Name>
+```
+
 ### Tag
 ```sh
 # List tags
