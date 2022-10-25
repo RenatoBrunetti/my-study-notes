@@ -65,6 +65,9 @@ git checkout -b <Branch-Name>
 
 # Switch branch
 git checkout <Branch-Name>
+
+# Push local branch to origin
+git push origin <Branch-Name>
 ```
 
 ### Tag
