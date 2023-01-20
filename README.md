@@ -28,6 +28,10 @@
   - [Flyweight](design-patterns/structural/flyweight/README.md)
   - [Proxy](design-patterns/structural/proxy/README.md) -->
 
+> ## [Database](database/README.md)
+- [NoSQL](database/nosql/README.md)
+  - [Redis](database/nosql/redis/README.md)
+
 > ## [Devops](devops/README.md)
 - [Docker](devops/docker/README.md)
 - [Kubernetes](devops/kubernetes/README.md)
