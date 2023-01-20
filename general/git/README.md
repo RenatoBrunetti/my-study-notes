@@ -70,6 +70,15 @@ git checkout <Branch-Name>
 git push origin <Branch-Name>
 ```
 
+### Log
+```sh
+# Show a commit log list
+git log
+
+# show a one line commit log list
+git log --oneline
+```
+
 ### Tag
 ```sh
 # List tags
