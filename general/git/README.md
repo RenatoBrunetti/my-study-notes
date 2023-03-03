@@ -61,10 +61,12 @@ git branch
 git branch -a
 
 # Create local branch and switch in it
-git checkout -b <Branch-Name>
+git switch -c <Branch-Name>
+git checkout -b <Branch-Name> # Deprecated by community
 
 # Switch branch
-git checkout <Branch-Name>
+git switch <Branch-Name>
+git checkout <Branch-Name> # Deprecated by community
 
 # Push local branch to origin
 git push origin <Branch-Name>
