@@ -96,3 +96,21 @@ git push origin main --tags
 # Push with only annotated tags
 git push origin main --follow-tags
 ```
+
+### Submodules
+```sh
+# Start a submodule
+git submodule init
+
+# Check a submodule status
+git submodule status
+
+# Add a new submodule
+git submodule add <repository-url.git>
+
+# Update and pull repositories for the first time
+git submodule update --init --recursive
+
+# Update and pull repositories from remote
+git submodule update --recursive --remote
+```
